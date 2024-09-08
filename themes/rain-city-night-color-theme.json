@@ -1,0 +1,115 @@
+{
+	"name": "Rain City Storm",
+	"colors": {
+		"editor.background": "#0d1a26", // Bluish dark background
+		"editor.foreground": "#c8d3f5", // Clean contrast text
+		"editor.lineHighlightBackground": "#112233", // Soft highlight
+		"editor.selectionBackground": "#444c55", // Soft blue-grey for selection
+		"editorCursor.foreground": "#f7768e", // Bright for visibility
+		"editorWhitespace.foreground": "#3b536a", // Faded for clean look
+		"editorIndentGuide.background1": "#37404b",
+		"editorLineNumber.foreground": "#6272a4", // Soft contrast for line numbers
+		"tab.activeBackground": "#0d1a26",
+		"tab.activeForeground": "#c8d3f5",
+		"activityBar.background": "#0b1624",
+		"sideBar.background": "#0b1624",
+		"sideBar.foreground": "#c8d3f5",
+		"statusBar.background": "#0b1624",
+		"statusBar.foreground": "#c8d3f5"
+	},
+	"tokenColors": [
+		{
+			"scope": [
+				"variable",
+				"variable.parameter",
+				"support.variable",
+				"variable.other"
+			],
+			"settings": {
+				"foreground": "#82aaff" // Bright blue for variables
+			}
+		},
+		{
+			"scope": [
+				"keyword",
+				"storage.type",
+				"keyword.operator",
+				"constant.language"
+			],
+			"settings": {
+				"foreground": "#ff9e64" // Soft orange for keywords and types
+			}
+		},
+		{
+			"scope": [
+				"function",
+				"entity.name.function",
+				"support.function",
+				"keyword.operator.function.in",
+				"keyword.operator.function.new"
+			],
+			"settings": {
+				"foreground": "#f7768e" // Pinkish-red for functions and async
+			}
+		},
+		{
+			"scope": [
+				"entity.name.tag",
+				"meta.tag",
+				"support.class.component"
+			],
+			"settings": {
+				"foreground": "#bb9af7" // Purple for HTML tags and custom elements
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.tag.begin",
+				"punctuation.definition.tag.end",
+				"punctuation.separator.key-value"
+			],
+			"settings": {
+				"foreground": "#89ddff" // Light blue for punctuation in HTML
+			}
+		},
+		{
+			"scope": [
+				"string",
+				"string.quoted.double",
+				"string.quoted.single"
+			],
+			"settings": {
+				"foreground": "#9ece6a" // Green for strings
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name",
+				"entity.other.attribute-name.id",
+				"entity.other.attribute-name.class"
+			],
+			"settings": {
+				"foreground": "#ff9e64" // Soft orange for attributes
+			}
+		},
+		{
+			"scope": [
+				"support.type.property-name",
+				"meta.object-literal.key"
+			],
+			"settings": {
+				"foreground": "#7aa2f7" // Blue for object keys
+			}
+		},
+		{
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#5c6773", // Faded for comments
+				"fontStyle": "italic"
+			}
+		}
+	]
+}

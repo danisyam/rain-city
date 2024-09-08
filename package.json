@@ -1,0 +1,63 @@
+{
+  "name": "rain-city-night",
+  "displayName": "Rain City Night",
+  "description": "A dark theme rainy city night, combining smooth, calming colors with good contrast. Perfect for coding in multiple languages.",
+  "version": "1.0.0",
+  "publisher": "DaniSyam",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Rain City Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rain-city-night-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danisyam/rain-city-night"
+  },
+  "author": {
+    "name": "Dani Syam",
+    "email": "danisyamsudin0@gmail.com",
+    "url": "https://danisyam.github.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danisyam/rain-city-night/issues"
+  },
+  "homepage": "https://github.com/danisyam/rain-city-night#readme",
+  "keywords": [
+    "vscode",
+    "theme",
+    "dark theme",
+    "rain city",
+    "visual studio code"
+  ],
+  "icon": "images/icon.png",
+  "screenshots": [
+    {
+      "src": "images/screenshot-1.png",
+      "alt": "Rain City Night theme screenshot 1",
+      "caption": "Calming, smooth contrast theme for coding"
+    },
+    {
+      "src": "images/screenshot-2.png",
+      "alt": "Rain City Night theme screenshot 2",
+      "caption": "Perfect for JavaScript, TypeScript, HTML, and CSS"
+    }
+  ],
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "vsce": "^1.97.0"
+  }
+}
