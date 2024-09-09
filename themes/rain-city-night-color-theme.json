@@ -103,7 +103,8 @@
 		},
 		{
 			"scope": [
-				"meta.object-literal.key"
+				"meta.object-literal.key",
+				"support.type.property-name.json"
 			],
 			"settings": {
 				"foreground": "#7cb3f7"
@@ -113,10 +114,22 @@
 			"scope": [
 				"meta.object-literal.value",
 				"variable.other.readwrite",
-				"variable.other.constant"
+				"variable.other.constant",
+				"constant.language.json"
 			],
 			"settings": {
 				"foreground": "#a8d695"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.dictionary.begin.json",
+				"punctuation.definition.dictionary.end.json",
+				"punctuation.separator.dictionary.key-value.json",
+				"punctuation.separator.dictionary.pair.json"
+			],
+			"settings": {
+				"foreground": "#d0e0f0"
 			}
 		},
 		{

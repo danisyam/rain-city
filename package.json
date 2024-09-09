@@ -13,9 +13,16 @@
   "contributes": {
     "themes": [
       {
+        "id": "rcn",
         "label": "Rain City Night",
         "uiTheme": "vs-dark",
         "path": "./themes/rain-city-night-color-theme.json"
+      },
+      {
+        "id": "rcd",
+        "label": "Rain City Day",
+        "uiTheme": "vs",
+        "path": "./themes/rain-city-day-color-theme.json"
       }
     ]
   },
@@ -43,13 +50,13 @@
   "icon": "images/icon.png",
   "screenshots": [
     {
-      "src": "images/screenshot-1.png",
-      "alt": "Rain City Night theme screenshot 1",
+      "src": "images/screenshot-day.png",
+      "alt": "Rain City Day theme screenshot",
       "caption": "Calming, smooth contrast theme for coding"
     },
     {
-      "src": "images/screenshot-2.png",
-      "alt": "Rain City Night theme screenshot 2",
+      "src": "images/screenshot-dark.png",
+      "alt": "Rain City Night theme screenshot",
       "caption": "Perfect for JavaScript, TypeScript, HTML, and CSS"
     }
   ],
