@@ -1,7 +1,7 @@
 
 # Rain City Night - VS Code Theme Extension
 
-**Rain City Night** is a dark theme for Visual Studio Code, inspired by the calm and peaceful atmosphere of a rainy city night. It features smooth, calming colors with good contrast, making it ideal for long coding sessions. The color scheme is a blend of Tokyo Night Storm and Rain City themes, providing a soothing experience for developers.
+**Rain City Night** is a dark theme for Visual Studio Code, inspired by the calm and peaceful atmosphere of a rainy city night. It features smooth, calming colors with good contrast, making it ideal for long coding sessions and providing a soothing experience for developers.
 
 ## Features
 - A dark theme with a background that has a bluish tint, perfect for coding in low light conditions.

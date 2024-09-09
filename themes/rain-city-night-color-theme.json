@@ -1,21 +1,44 @@
 {
-	"name": "Rain City Storm",
+	"name": "Rain City Night",
+	"type": "dark",
 	"colors": {
-		"editor.background": "#0d1a26", // Bluish dark background
-		"editor.foreground": "#c8d3f5", // Clean contrast text
-		"editor.lineHighlightBackground": "#112233", // Soft highlight
-		"editor.selectionBackground": "#444c55", // Soft blue-grey for selection
-		"editorCursor.foreground": "#f7768e", // Bright for visibility
-		"editorWhitespace.foreground": "#3b536a", // Faded for clean look
-		"editorIndentGuide.background1": "#37404b",
-		"editorLineNumber.foreground": "#6272a4", // Soft contrast for line numbers
+		"foreground": "#d0e0f0",
+		"descriptionForeground": "#a9b1d6",
+		"focusBorder": "#a9b1d633",
+		"errorForeground": "#e57373",
+		"widget.shadow": "#ffffff00",
+		"scrollbar.shadow": "#00000033",
+		"badge.background": "#3a4b6b33",
+		"badge.foreground": "#c8d3f5",
+		"icon.foreground": "#a9b1d6",
+		"settings.headerForeground": "#7ca0f4",
+		"window.activeBorder": "#0d1a26",
+		"window.inactiveBorder": "#0d1a26",
+		"sash.hoverBorder": "#41587b",
+		"toolbar.activeBackground": "#18223b",
+		"toolbar.hoverBackground": "#1e2d4f",
+		"extensionButton.prominentBackground": "#5678b9",
+		"extensionButton.prominentHoverBackground": "#45679b",
+		"extensionButton.prominentForeground": "#ffffff",
+		"input.background": "#1e293b",
+		"input.foreground": "#c8d3f5",
+		"activityBar.background": "#0e1b2b",
+		"sideBar.background": "#0e1b2b",
+		"statusBar.background": "#0a1a28",
+		"statusBar.foreground": "#c8d3f5",
 		"tab.activeBackground": "#0d1a26",
-		"tab.activeForeground": "#c8d3f5",
-		"activityBar.background": "#0b1624",
-		"sideBar.background": "#0b1624",
-		"sideBar.foreground": "#c8d3f5",
-		"statusBar.background": "#0b1624",
-		"statusBar.foreground": "#c8d3f5"
+		"tab.activeForeground": "#d0e0f0",
+		"list.activeSelectionBackground": "#25354b",
+		"list.hoverBackground": "#1c283b",
+		"editor.background": "#0d1a26",
+		"editor.foreground": "#c8d3f5",
+		"editor.selectionBackground": "#444c55",
+		"editor.lineHighlightBackground": "#152836",
+		"editorCursor.foreground": "#ff7995",
+		"editorWhitespace.foreground": "#4a5b6b",
+		"editorIndentGuide.background1": "#37404b",
+		"editorLineNumber.foreground": "#6b82a8",
+		"editorLineNumber.activeForeground": "#d0e0f0"
 	},
 	"tokenColors": [
 		{
@@ -26,7 +49,7 @@
 				"variable.other"
 			],
 			"settings": {
-				"foreground": "#82aaff" // Bright blue for variables
+				"foreground": "#91c9ff"
 			}
 		},
 		{
@@ -37,19 +60,17 @@
 				"constant.language"
 			],
 			"settings": {
-				"foreground": "#ff9e64" // Soft orange for keywords and types
+				"foreground": "#ffb86b"
 			}
 		},
 		{
 			"scope": [
 				"function",
 				"entity.name.function",
-				"support.function",
-				"keyword.operator.function.in",
-				"keyword.operator.function.new"
+				"support.function"
 			],
 			"settings": {
-				"foreground": "#f7768e" // Pinkish-red for functions and async
+				"foreground": "#ff7995"
 			}
 		},
 		{
@@ -59,17 +80,7 @@
 				"support.class.component"
 			],
 			"settings": {
-				"foreground": "#bb9af7" // Purple for HTML tags and custom elements
-			}
-		},
-		{
-			"scope": [
-				"punctuation.definition.tag.begin",
-				"punctuation.definition.tag.end",
-				"punctuation.separator.key-value"
-			],
-			"settings": {
-				"foreground": "#89ddff" // Light blue for punctuation in HTML
+				"foreground": "#caa9f7"
 			}
 		},
 		{
@@ -79,26 +90,33 @@
 				"string.quoted.single"
 			],
 			"settings": {
-				"foreground": "#9ece6a" // Green for strings
+				"foreground": "#a8d695"
 			}
 		},
 		{
 			"scope": [
-				"entity.other.attribute-name",
-				"entity.other.attribute-name.id",
-				"entity.other.attribute-name.class"
+				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#ff9e64" // Soft orange for attributes
+				"foreground": "#ffb86b"
 			}
 		},
 		{
 			"scope": [
-				"support.type.property-name",
 				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#7aa2f7" // Blue for object keys
+				"foreground": "#7cb3f7"
+			}
+		},
+		{
+			"scope": [
+				"meta.object-literal.value",
+				"variable.other.readwrite",
+				"variable.other.constant"
+			],
+			"settings": {
+				"foreground": "#a8d695"
 			}
 		},
 		{
@@ -107,7 +125,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "#5c6773", // Faded for comments
+				"foreground": "#68757e",
 				"fontStyle": "italic"
 			}
 		}
